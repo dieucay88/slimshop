@@ -1,5 +1,4 @@
 <?php
-// DIC configuration
 
 $container = $app->getContainer();
 
@@ -56,4 +55,8 @@ $container['logger'] = function ($c) {
 
 $container['App\Controller\HomeController'] = function ($c) {
     return new App\Controller\HomeController($c);
+};
+
+$container['App\Controller\UserController'] = function ($c) {
+    return new App\Controller\UserController($c);
 };

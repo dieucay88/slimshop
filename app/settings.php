@@ -22,12 +22,12 @@ return [
                 'cache' => null,
             ],
             'connection' => [
-                'driver'   => 'pdo_mysql',
-                'host'     => '127.0.0.1',
-                'port'     => 8889,
-                'dbname'   => 'blog',
-                'user'     => 'root',
-                'password' => 'root',
+                'driver'   => 'pdo_pgsql',
+                'host'     => 'localhost',
+                'port'     => 5433,
+                'dbname'   => 'Slimshop',
+                'user'     => 'postgres',
+                'password' => '123',
             ]
         ],
 
